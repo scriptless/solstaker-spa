@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import Features from './components/Features';
+import About from './components/About';
+import FAQ from './components/FAQ';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="container mx-auto px-4" id="content">
+      <Navbar/>
+      <Header/>
+      <Features/>
+      <About/>
+      <FAQ/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
+
+document.body.classList.add('bg-gray-800');
 
 export default App;
