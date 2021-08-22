@@ -14,7 +14,7 @@ class Navbar extends Component {
                 </svg>
             </button>
             </div>
-            <div class="navbar-menu hidden lg:order-1 lg:block w-full lg:w-2/5">
+            <div class="navbar-menu hidden lg:order-1 lg:block w-full lg:w-2/5 lg:text-left">
             <a class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-200 hover:text-indigo-400" href="#">About</a>
             <a class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-200 hover:text-indigo-400" href="#">Features</a></div>
             <div class="navbar-menu hidden lg:order-3 lg:block w-full lg:w-2/5 lg:text-right">
@@ -22,7 +22,7 @@ class Navbar extends Component {
             <a class="block lg:inline-block mt-4 lg:mt-0 text-blue-200 hover:text-indigo-400" href="#">Contact</a>
             </div>
         </nav>
-        <div class="border-t border-gray-700"></div>
+        <div class="border-t border-gray-500"></div>
     </div>;
   }
 }

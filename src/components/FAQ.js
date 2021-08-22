@@ -2,12 +2,16 @@ import React, { Component } from 'react';
 
 const questions = [
     "What's the best thing about Switzerland?",
-    "lol"
-  ];
+    "What's the best thing about Switzerland?",
+    "What's the best thing about Switzerland?",
+    "What's the best thing about Switzerland?",
+];
 const answers = [
     "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-    "lolanswer"
-  ];
+    "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+];
 
 const FAQQuestions = () => (
     <dl class="mt-6 space-y-6 divide-y divide-gray-700">

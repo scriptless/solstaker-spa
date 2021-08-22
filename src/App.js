@@ -1,5 +1,4 @@
 import './App.css';
-import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Features from './components/Features';
 import About from './components/About';
@@ -10,15 +9,16 @@ import Join from './components/Join';
 
 function App() {
   return (
-    <div class="container mx-auto px-4" id="content">
-      <Navbar/>
+      <div>
       <Header/>
-      <Features/>
-      <Join/>
-      <About/>
-      <FAQ/>
-      <Contact/>
-      <Footer/>
+        <div class="container mx-auto px-4" id="content">
+            <Features/>
+            <Join/>
+            <About/>
+            <FAQ/>
+            <Contact/>
+            <Footer/>
+        </div>
     </div>
   );
 }

@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import Navbar from './Navbar';
 
 class Header extends Component {
   render() {
-    return <section class="px-4 -mt-14 text-center h-screen flex flex-col justify-between">
-            <div class="h-1"></div>
+    return <section class="bg-gradient-to-b from-gray-700 to-gray-800 px-4 text-center h-screen flex flex-col justify-between">
+            <div class="container mx-auto px-4">
+                <Navbar />
+            </div>
             <div class="w-full max-w-2xl mx-auto"> 
                 <h2 class="text-white text-5xl mt-2 mb-6 leading-tight font-semibold font-heading">Earn Rewards On Your Cryptoassets</h2>
                 <p class="mb-8 text-gray-200 leading-relaxed">Professional, dedicated, local. Dunder Mifflin is on its best patch to change the way you think about paper. That’s us - people who sell limitless paper in the paperless world.</p>
