@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/solstaker-spa/static/css/main.14f49791.chunk.css",
-    "main.js": "/solstaker-spa/static/js/main.2d2384f7.chunk.js",
-    "main.js.map": "/solstaker-spa/static/js/main.2d2384f7.chunk.js.map",
+    "main.css": "/solstaker-spa/static/css/main.a543dbd8.chunk.css",
+    "main.js": "/solstaker-spa/static/js/main.2df90280.chunk.js",
+    "main.js.map": "/solstaker-spa/static/js/main.2df90280.chunk.js.map",
     "runtime-main.js": "/solstaker-spa/static/js/runtime-main.39dc0f49.js",
     "runtime-main.js.map": "/solstaker-spa/static/js/runtime-main.39dc0f49.js.map",
     "static/js/2.faf3710d.chunk.js": "/solstaker-spa/static/js/2.faf3710d.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.50ea94db.chunk.js": "/solstaker-spa/static/js/3.50ea94db.chunk.js",
     "static/js/3.50ea94db.chunk.js.map": "/solstaker-spa/static/js/3.50ea94db.chunk.js.map",
     "index.html": "/solstaker-spa/index.html",
-    "static/css/main.14f49791.chunk.css.map": "/solstaker-spa/static/css/main.14f49791.chunk.css.map",
+    "static/css/main.a543dbd8.chunk.css.map": "/solstaker-spa/static/css/main.a543dbd8.chunk.css.map",
     "static/js/2.faf3710d.chunk.js.LICENSE.txt": "/solstaker-spa/static/js/2.faf3710d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.39dc0f49.js",
     "static/js/2.faf3710d.chunk.js",
-    "static/css/main.14f49791.chunk.css",
-    "static/js/main.2d2384f7.chunk.js"
+    "static/css/main.a543dbd8.chunk.css",
+    "static/js/main.2df90280.chunk.js"
   ]
 }
