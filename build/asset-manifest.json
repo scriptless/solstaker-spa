@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "./static/css/main.14f49791.chunk.css",
-    "main.js": "./static/js/main.2d2384f7.chunk.js",
-    "main.js.map": "./static/js/main.2d2384f7.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.218ed9f6.js",
-    "runtime-main.js.map": "./static/js/runtime-main.218ed9f6.js.map",
-    "static/js/2.faf3710d.chunk.js": "./static/js/2.faf3710d.chunk.js",
-    "static/js/2.faf3710d.chunk.js.map": "./static/js/2.faf3710d.chunk.js.map",
-    "static/js/3.50ea94db.chunk.js": "./static/js/3.50ea94db.chunk.js",
-    "static/js/3.50ea94db.chunk.js.map": "./static/js/3.50ea94db.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/main.14f49791.chunk.css.map": "./static/css/main.14f49791.chunk.css.map",
-    "static/js/2.faf3710d.chunk.js.LICENSE.txt": "./static/js/2.faf3710d.chunk.js.LICENSE.txt"
+    "main.css": "/solstaker-spa/static/css/main.14f49791.chunk.css",
+    "main.js": "/solstaker-spa/static/js/main.2d2384f7.chunk.js",
+    "main.js.map": "/solstaker-spa/static/js/main.2d2384f7.chunk.js.map",
+    "runtime-main.js": "/solstaker-spa/static/js/runtime-main.39dc0f49.js",
+    "runtime-main.js.map": "/solstaker-spa/static/js/runtime-main.39dc0f49.js.map",
+    "static/js/2.faf3710d.chunk.js": "/solstaker-spa/static/js/2.faf3710d.chunk.js",
+    "static/js/2.faf3710d.chunk.js.map": "/solstaker-spa/static/js/2.faf3710d.chunk.js.map",
+    "static/js/3.50ea94db.chunk.js": "/solstaker-spa/static/js/3.50ea94db.chunk.js",
+    "static/js/3.50ea94db.chunk.js.map": "/solstaker-spa/static/js/3.50ea94db.chunk.js.map",
+    "index.html": "/solstaker-spa/index.html",
+    "static/css/main.14f49791.chunk.css.map": "/solstaker-spa/static/css/main.14f49791.chunk.css.map",
+    "static/js/2.faf3710d.chunk.js.LICENSE.txt": "/solstaker-spa/static/js/2.faf3710d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.218ed9f6.js",
+    "static/js/runtime-main.39dc0f49.js",
     "static/js/2.faf3710d.chunk.js",
     "static/css/main.14f49791.chunk.css",
     "static/js/main.2d2384f7.chunk.js"

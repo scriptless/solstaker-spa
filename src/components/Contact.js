@@ -4,7 +4,7 @@ class Contact extends Component {
   render() {
     return (
 
-        <section className="bg-gray-200 mb-10 rounded-xl">
+        <section className="bg-gradient-to-br from-gray-200 to-gray-300 mb-10 rounded-xl">
           <div className="relative">
             <div className="grid grid-cols-1 lg:grid-cols-3">
 
@@ -67,10 +67,10 @@ class Contact extends Component {
                 <ul role="list" className="mt-8 flex space-x-12">
                   <li>
                     <a className="text-indigo-200 hover:text-indigo-100" href="#">
-                      <span className="sr-only">Telegram</span>
-                      <svg width={24} height={24} viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" aria-hidden="true">
-                        <path d="M18.384,22.779c0.322,0.228 0.737,0.285 1.107,0.145c0.37,-0.141 0.642,-0.457 0.724,-0.84c0.869,-4.084 2.977,-14.421 3.768,-18.136c0.06,-0.28 -0.04,-0.571 -0.26,-0.758c-0.22,-0.187 -0.525,-0.241 -0.797,-0.14c-4.193,1.552 -17.106,6.397 -22.384,8.35c-0.335,0.124 -0.553,0.446 -0.542,0.799c0.012,0.354 0.25,0.661 0.593,0.764c2.367,0.708 5.474,1.693 5.474,1.693c0,0 1.452,4.385 2.209,6.615c0.095,0.28 0.314,0.5 0.603,0.576c0.288,0.075 0.596,-0.004 0.811,-0.207c1.216,-1.148 3.096,-2.923 3.096,-2.923c0,0 3.572,2.619 5.598,4.062Zm-11.01,-8.677l1.679,5.538l0.373,-3.507c0,0 6.487,-5.851 10.185,-9.186c0.108,-0.098 0.123,-0.262 0.033,-0.377c-0.089,-0.115 -0.253,-0.142 -0.376,-0.064c-4.286,2.737 -11.894,7.596 -11.894,7.596Z" fill="currentColor"/>
-                    </svg>
+                      <span className="sr-only">Twitter</span>
+                      <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" aria-hidden="true">
+                        <path d="M7.548 22.501c9.056 0 14.01-7.503 14.01-14.01 0-.213 0-.425-.015-.636A10.02 10.02 0 0024 5.305a9.828 9.828 0 01-2.828.776 4.94 4.94 0 002.165-2.724 9.867 9.867 0 01-3.127 1.195 4.929 4.929 0 00-8.391 4.491A13.98 13.98 0 011.67 3.9a4.928 4.928 0 001.525 6.573A4.887 4.887 0 01.96 9.855v.063a4.926 4.926 0 003.95 4.827 4.917 4.917 0 01-2.223.084 4.93 4.93 0 004.6 3.42A9.88 9.88 0 010 20.289a13.941 13.941 0 007.548 2.209" fill="currentColor" />
+                      </svg>
                     </a>
                   </li>
                   <li>
@@ -83,10 +83,10 @@ class Contact extends Component {
                   </li>
                   <li>
                     <a className="text-indigo-200 hover:text-indigo-100" href="#">
-                      <span className="sr-only">Twitter</span>
+                      <span className="sr-only">Telegram</span>
                       <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" aria-hidden="true">
-                        <path d="M7.548 22.501c9.056 0 14.01-7.503 14.01-14.01 0-.213 0-.425-.015-.636A10.02 10.02 0 0024 5.305a9.828 9.828 0 01-2.828.776 4.94 4.94 0 002.165-2.724 9.867 9.867 0 01-3.127 1.195 4.929 4.929 0 00-8.391 4.491A13.98 13.98 0 011.67 3.9a4.928 4.928 0 001.525 6.573A4.887 4.887 0 01.96 9.855v.063a4.926 4.926 0 003.95 4.827 4.917 4.917 0 01-2.223.084 4.93 4.93 0 004.6 3.42A9.88 9.88 0 010 20.289a13.941 13.941 0 007.548 2.209" fill="currentColor" />
-                      </svg>
+                        <path d="M18.384,22.779c0.322,0.228 0.737,0.285 1.107,0.145c0.37,-0.141 0.642,-0.457 0.724,-0.84c0.869,-4.084 2.977,-14.421 3.768,-18.136c0.06,-0.28 -0.04,-0.571 -0.26,-0.758c-0.22,-0.187 -0.525,-0.241 -0.797,-0.14c-4.193,1.552 -17.106,6.397 -22.384,8.35c-0.335,0.124 -0.553,0.446 -0.542,0.799c0.012,0.354 0.25,0.661 0.593,0.764c2.367,0.708 5.474,1.693 5.474,1.693c0,0 1.452,4.385 2.209,6.615c0.095,0.28 0.314,0.5 0.603,0.576c0.288,0.075 0.596,-0.004 0.811,-0.207c1.216,-1.148 3.096,-2.923 3.096,-2.923c0,0 3.572,2.619 5.598,4.062Zm-11.01,-8.677l1.679,5.538l0.373,-3.507c0,0 6.487,-5.851 10.185,-9.186c0.108,-0.098 0.123,-0.262 0.033,-0.377c-0.089,-0.115 -0.253,-0.142 -0.376,-0.064c-4.286,2.737 -11.894,7.596 -11.894,7.596Z" fill="currentColor"/>
+                    </svg>
                     </a>
                   </li>
                 </ul>
@@ -97,42 +97,21 @@ class Contact extends Component {
               <div className="py-9 px-9 lg:col-span-2 rounded-xl">
                 <h1 className="text-2xl leading-5 font-semibold font-heading mb-5">Send us a message</h1>
                 <form action="#" method="POST" className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
-                  <div>
-                    <label htmlFor="first-name" className="block text-sm font-medium text-gray-900">First name</label>
-                    <div className="mt-1">
-                      <input type="text" name="first-name" id="first-name" autoComplete="given-name" className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" style={{backgroundImage: 'url("data:image/png', backgroundRepeat: 'no-repeat', backgroundAttachment: 'scroll', backgroundSize: '16px 18px', backgroundPosition: '98% 50%'}} />
-                    </div>
-                  </div>
-                  <div>
-                    <label htmlFor="last-name" className="block text-sm font-medium text-gray-900">Last name</label>
-                    <div className="mt-1">
-                      <input type="text" name="last-name" id="last-name" autoComplete="family-name" className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" />
-                    </div>
-                  </div>
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-900">Email</label>
+                  <div className="sm:col-span-2">
+                    <label htmlFor="email" className="block text-sm font-medium text-gray-500">Email</label>
                     <div className="mt-1">
                       <input id="email" name="email" type="email" autoComplete="email" className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" />
                     </div>
                   </div>
-                  <div>
-                    <div className="flex justify-between">
-                      <label htmlFor="phone" className="block text-sm font-medium text-gray-900">Phone</label>
-                      <span id="phone-optional" className="text-sm text-gray-500">Optional</span>
-                    </div>
-                    <div className="mt-1">
-                      <input type="text" name="phone" id="phone" autoComplete="tel" className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" aria-describedby="phone-optional" />
-                    </div>
-                  </div>
                   <div className="sm:col-span-2">
-                    <label htmlFor="subject" className="block text-sm font-medium text-gray-900">Subject</label>
+                    <label htmlFor="subject" className="block text-sm font-medium text-gray-500">Subject</label>
                     <div className="mt-1">
                       <input type="text" name="subject" id="subject" className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" />
                     </div>
                   </div>
                   <div className="sm:col-span-2">
                     <div className="flex justify-between">
-                      <label htmlFor="message" className="block text-sm font-medium text-gray-900">Message</label>
+                      <label htmlFor="message" className="block text-sm font-medium text-gray-500">Message</label>
                       <span id="message-max" className="text-sm text-gray-500">Max. 500 characters</span>
                     </div>
                     <div className="mt-1">

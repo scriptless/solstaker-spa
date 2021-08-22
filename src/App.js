@@ -6,6 +6,7 @@ import About from './components/About';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Join from './components/Join';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar/>
       <Header/>
       <Features/>
+      <Join/>
       <About/>
       <FAQ/>
       <Contact/>
