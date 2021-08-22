@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/solstaker-spa/static/css/main.a543dbd8.chunk.css",
-    "main.js": "/solstaker-spa/static/js/main.2df90280.chunk.js",
-    "main.js.map": "/solstaker-spa/static/js/main.2df90280.chunk.js.map",
+    "main.js": "/solstaker-spa/static/js/main.b0abe58a.chunk.js",
+    "main.js.map": "/solstaker-spa/static/js/main.b0abe58a.chunk.js.map",
     "runtime-main.js": "/solstaker-spa/static/js/runtime-main.39dc0f49.js",
     "runtime-main.js.map": "/solstaker-spa/static/js/runtime-main.39dc0f49.js.map",
     "static/js/2.faf3710d.chunk.js": "/solstaker-spa/static/js/2.faf3710d.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.39dc0f49.js",
     "static/js/2.faf3710d.chunk.js",
     "static/css/main.a543dbd8.chunk.css",
-    "static/js/main.2df90280.chunk.js"
+    "static/js/main.b0abe58a.chunk.js"
   ]
 }
