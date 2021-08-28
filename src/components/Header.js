@@ -7,7 +7,7 @@ class Header extends Component {
             <div className="container mx-auto">
                 <Navbar />
             </div>
-            <div className="w-full max-w-2xl mx-auto py-20 lg:py-0"> 
+            <div className="w-full max-w-xl mx-auto py-28 lg:py-0"> 
                 <h2 className="text-white text-4xl md:text-5xl mt-2 mb-6 leading-tight font-semibold font-heading">Earn Rewards On Your Cryptoassets</h2>
                 <p className="mb-8 text-gray-200 leading-relaxed">Professional, dedicated, local. Dunder Mifflin is on its best patch to change the way you think about paper. That’s us - people who sell limitless paper in the paperless world.</p>
                 <div>

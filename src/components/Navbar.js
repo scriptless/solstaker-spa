@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const MobileMenu = props => (
     <div className={props.open ? "lg:hidden": "hidden"} id="mobile-menu">
-        <div className="space-y-3 pb-5">
+        <div className="space-y-3 pb-5" onClick={props.onMenuClick}>
             <a href="#about" className="text-gray-200 bg-gray-700 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
             <a href="#features" className="text-gray-200 bg-gray-700 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Features</a>
             <a href="#faq" className="text-gray-200 bg-gray-700 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">FAQ</a>
@@ -27,7 +27,7 @@ class Navbar extends Component {
                     <a className="text-xl sm:text-2xl text-indigo-300 font-semibold font-heading" href="/">SolStaker.com</a>
                 </div>
                 <div className="block lg:hidden">
-                    <button onClick={() => this.setState({mobileMenuOpen: !this.state.mobileMenuOpen})} className="navbar-burger flex items-center text-blue-200 rounded">
+                    <button onClick={() => this.setState({mobileMenuOpen: !this.state.mobileMenuOpen})} className="navbar-burger flex items-center text-indigo-300">
                         {/*<svg className="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <title>Menu</title>
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -51,8 +51,8 @@ class Navbar extends Component {
                     <a className="block lg:inline-block mt-4 lg:mt-0 text-blue-200 hover:text-indigo-400" href="#contact">Contact</a>
                 </div>
             </nav>
-            <MobileMenu open={this.state.mobileMenuOpen}/>
-            <div className="block border-t border-gray-600"></div>
+            <MobileMenu onMenuClick={() => this.setState({ mobileMenuOpen: false })} open={this.state.mobileMenuOpen}/>
+            <div className="block border-t border-gray-600 -mx-4 sm:mx-0"></div>
         </div>;
     }
 }

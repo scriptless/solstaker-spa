@@ -81,7 +81,7 @@ class Contact extends Component {
                         <span id="message-max" className="text-sm text-gray-300">Max. 500 characters</span>
                         </div>
                         <div className="mt-1">
-                        <textarea id="message" name="message" rows={4} className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" aria-describedby="message-max" defaultValue={""} />
+                        <textarea id="message" name="message" rows={3} className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" aria-describedby="message-max" defaultValue={""} />
                         </div>
                     </div>
                     <div className="sm:col-span-2 sm:flex sm:justify-end">
