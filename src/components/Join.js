@@ -91,7 +91,7 @@ const JoinDetailsAddressTable = () => (
 const JoinDetails = props => {
     return (<div>
             <div className="flex justify-center">
-                <img className="h-14 w-14 mb-8" src={process.env.PUBLIC_URL + "/logos/exchange-white.svg"} alt=""/>
+                <img className="h-10 w-10 md:h-14 md:w-14 mb-8" src={process.env.PUBLIC_URL + "/logos/exchange-white.svg"} alt=""/>
             </div>
             <div className="flex flex-col md:items-center space-y-5">
                 <JoinDetailsTable/>
@@ -116,7 +116,7 @@ const JoinMarkup = () => {
                 {isOpen ? 
                 (<JoinDetails className="transition-opacity duration-1000 ease-in-out" setOpen={setOpen}/>) :
                 (<div className="flex flex-col items-center">
-                    <img className="h-20 w-20 mb-5" src={process.env.PUBLIC_URL + "/logos/exchange-white.svg"} alt=""/>
+                    <img className="h-16 w-16 md:h-20 md:w-20 mb-5" src={process.env.PUBLIC_URL + "/logos/exchange-white.svg"} alt=""/>
                     <h1 className="text-white text-2xl font-semibold leading-tight">Solana</h1>
                     <p className="text-gray-200">APY ~8%</p>
                     <span className="my-2 inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">

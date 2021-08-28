@@ -15,7 +15,7 @@ class Header extends Component {
                     <a className="text-indigo-400 hover:underline" href="#about">Learn more</a>
                 </div>
             </div>
-            <div className="w-full max-w-2xl mx-auto flex items-start justify-center pb-10 text-white">
+            <div className="w-full max-w-2xl mx-auto flex items-start justify-center p-20 lg:p-10 text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" className="animate-bounce h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                 </svg>

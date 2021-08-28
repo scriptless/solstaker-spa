@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 const MobileMenu = props => (
     <div className={props.open ? "lg:hidden": "hidden"} id="mobile-menu">
         <div className="space-y-3">
-            <a href="#about" className="text-gray-300 bg-gray-700 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
-            <a href="#features" className="text-gray-300 bg-gray-700 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Features</a>
-            <a href="#faq" className="text-gray-300 bg-gray-700 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">FAQ</a>
-            <a href="#contact" className="text-gray-300 bg-gray-700 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+            <a href="#about" className="text-gray-200 bg-gray-700 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
+            <a href="#features" className="text-gray-200 bg-gray-700 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Features</a>
+            <a href="#faq" className="text-gray-200 bg-gray-700 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">FAQ</a>
+            <a href="#contact" className="text-gray-200 bg-gray-700 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
         </div>
     </div>
 );
@@ -42,11 +42,11 @@ class Navbar extends Component {
                         </svg>
                     </button>
                 </div>
-                <div className="navbar-menu hidden lg:order-1 lg:block w-full lg:w-2/5 lg:text-left">
+                <div className="navbar-menu hidden lg:px-5 lg:order-1 lg:block w-full lg:w-2/5 lg:text-left">
                     <a className="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-200 hover:text-indigo-400" href="#about">About</a>
                     <a className="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-200 hover:text-indigo-400" href="#features">Features</a>
                 </div>
-                <div className="navbar-menu hidden lg:order-3 lg:block w-full lg:w-2/5 lg:text-right">
+                <div className="navbar-menu hidden lg:px-5 lg:order-3 lg:block w-full lg:w-2/5 lg:text-right">
                     <a className="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-200 hover:text-indigo-400" href="#faq">FAQ</a>
                     <a className="block lg:inline-block mt-4 lg:mt-0 text-blue-200 hover:text-indigo-400" href="#contact">Contact</a>
                 </div>
