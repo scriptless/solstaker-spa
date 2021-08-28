@@ -59,7 +59,7 @@ class FAQ extends Component {
 
     render() {
         const { questions } = this.state;
-        return <ScrollSection name="faq" className="px-7 py-9 rounded-xl border border-1 border-gray-700 mb-10">
+        return <ScrollSection name="faq" className="px-7 py-9 rounded-xl border border-1 border-gray-700">
             <h1 className="text-white text-2xl leading-5 font-semibold font-heading mb-5">Frequently Asked Questions</h1>
             <FAQQuestions questions={questions} handleOpen={this.handleOpenQuestion}/>
         </ScrollSection>;

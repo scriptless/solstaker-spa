@@ -3,7 +3,7 @@ import ScrollSection from '../elements/ScrollSection';
 
 class Features extends Component {
   render() {
-    return <ScrollSection name="features" className="px-7 py-10 rounded-xl border border-1 border-gray-700 mb-10">
+    return <ScrollSection name="features" className="px-7 py-10 rounded-xl border border-1 border-gray-700">
         <div className="flex flex-wrap -mx-4 -mb-6">
         <div className="lg:w-1/3 px-4 mb-6">
             <svg className="text-indigo-400 w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

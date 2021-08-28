@@ -11,7 +11,7 @@ function App() {
   return (
       <div>
       <Header/>
-        <div className="container mx-auto px-4" id="content">
+        <div className="container mx-auto px-4 space-y-5 sm:space-y-10" id="content">
             <Features/>
             <Join/>
             <About/>

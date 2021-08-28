@@ -4,7 +4,7 @@ import ScrollSection from '../elements/ScrollSection';
 class Contact extends Component {
   render() {
     return (
-        <ScrollSection name="contact" className="mb-10">
+        <ScrollSection name="contact">
             <div className="relative">
                 <div className="grid grid-cols-1 lg:grid-cols-3">
 
