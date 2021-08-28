@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const MobileMenu = props => (
     <div className={props.open ? "lg:hidden": "hidden"} id="mobile-menu">
-        <div className="space-y-3">
+        <div className="space-y-3 pb-5">
             <a href="#about" className="text-gray-200 bg-gray-700 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
             <a href="#features" className="text-gray-200 bg-gray-700 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Features</a>
             <a href="#faq" className="text-gray-200 bg-gray-700 hover:bg-gray-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">FAQ</a>
@@ -22,7 +22,7 @@ class Navbar extends Component {
 
     render() {
         return <div>
-            <nav className="flex flex-wrap items-center justify-between py-5 lg:p-4">
+            <nav className="flex flex-wrap items-center justify-between px-1 py-5 lg:p-5">
                 <div className="lg:order-2 w-auto lg:w-1/5 lg:text-center">
                     <a className="text-xl sm:text-2xl text-indigo-300 font-semibold font-heading" href="/">SolStaker.com</a>
                 </div>
@@ -51,8 +51,8 @@ class Navbar extends Component {
                     <a className="block lg:inline-block mt-4 lg:mt-0 text-blue-200 hover:text-indigo-400" href="#contact">Contact</a>
                 </div>
             </nav>
-            <div className={this.state.mobileMenuOpen ? "hidden" : "block border-t border-gray-600"}></div>
             <MobileMenu open={this.state.mobileMenuOpen}/>
+            <div className="block border-t border-gray-600"></div>
         </div>;
     }
 }
