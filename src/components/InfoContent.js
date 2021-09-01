@@ -228,7 +228,7 @@ class InfoContent extends Component {
 
     render() {
         if(this.props.active === '') return <div></div>;
-        return <ScrollSection name="info" className="px-7 py-10 rounded-xl bg-white">
+        return <ScrollSection name="info" className="px-7 py-10 rounded-xl bg-white mb-5">
             {this.renderInfo(this.props.active)}
         </ScrollSection>;
     }
